@@ -1,0 +1,17 @@
+<%- include('includes/head.ejs') %>
+<body>
+    <h1>This age belongs to @<%= data.name %></h1>
+    <button>Follow</button>
+    <button>Following</button>
+    <p>Followers: <%= data.followers %> &nbsp;&nbsp;&nbsp;&nbsp;
+    Following: <%= data.following %></p>
+    <hr>
+    <% for(post of data.posts){ %>
+        <img src="<%- post.image %>" alt="some image">
+        <p>Likes: <%= post.likes %> &nbsp;&nbsp;&nbsp;&nbsp;
+        Comments: <%= post.comments %></p>
+        <% } %>
+        <script src="/app.js"></script>
+        <%- include('includes/tail.ejs') %>
+</body>
+</html>

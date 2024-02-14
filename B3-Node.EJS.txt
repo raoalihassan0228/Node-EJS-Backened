@@ -1,0 +1,6 @@
+Templating:
+EJS(Embadded JavaScript templates)
+EJS is a simple templating language that lets you generate HTML markup with plain javascript.
+
+Interpolation Syntyx:
+Interpolation refers to embadding expressions into marked up text.
