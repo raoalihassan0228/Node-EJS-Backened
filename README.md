@@ -3,5 +3,5 @@
 
 or
 
-npm i -g nodemon
+### npm i -g nodemon
 `nodemon index.js`
